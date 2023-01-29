@@ -55,3 +55,18 @@ img:hover{
     transform: scale(1.1);
    border-radius: 20%;
 }
+
+@media(max-width: 480px){
+
+    #main{
+ 
+  display:flex;
+  flex-direction: column;
+
+}
+.prodDIV{
+    width: 200px;
+    height: auto;
+}
+
+}
